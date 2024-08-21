@@ -1,0 +1,93 @@
+#testimonials {
+  margin-bottom: 20rem;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.headlines {
+  text-align: center;
+}
+
+.headlines h2 {
+  color: #495e57;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.headlines h4 {
+  color: #ee9972;
+  font-size: 28px;
+  margin: 1rem 0;
+}
+
+.reviews {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+}
+
+.review {
+  width: 350px;
+  background-color: #495e57;
+  border-radius: 10px;
+}
+
+.wrapper {
+  color: #edefee;
+  padding: 1rem;
+}
+
+.client {
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+  width: 100px;
+}
+
+.client-details {
+  color: #edefee;
+  padding: 1rem;
+}
+
+.client-details h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.client-details p {
+  font-size: 18px;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+
+.stars {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  gap: 2px;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.stars img {
+  width: 15px;
+  height: 15px;
+}
+
+.quote {
+  font-size: 24px;
+  font-weight: 600;
+}

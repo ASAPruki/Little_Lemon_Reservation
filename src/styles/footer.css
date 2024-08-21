@@ -1,0 +1,39 @@
+#footer-section {
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1), 0 -2px 2px rgba(0, 0, 0, 0.06),
+    0 0 2px rgba(0, 0, 0, 0.07);
+}
+
+.footer-container {
+  margin: 0 auto;
+  margin-top: 15rem;
+  max-width: 1200px;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container img {
+  display: block;
+  height: 172px;
+  width: 100px;
+  overflow: visible;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+ul a {
+  cursor: pointer;
+}
+
+.footer-wrapper li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.footer-wrapper h4 {
+  margin-bottom: 1rem;
+}

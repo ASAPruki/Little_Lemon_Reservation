@@ -1,0 +1,99 @@
+.reservation-form {
+  border-radius: 10px;
+  box-shadow: 11px 11px 15px -6px rgba(0, 0, 0, 0.1),
+    -11px -11px 15px -6px rgba(0, 0, 0, 0.1),
+    -11px 11px 15px -3px rgba(0, 0, 0, 0.1),
+    11px -11px 15px -3px rgba(0, 0, 0, 0.1);
+  margin: 5rem auto;
+  max-width: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+form h2 {
+  color: #495e57;
+  font-size: 32px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+label {
+  color: #868887;
+  font-size: 16px;
+  margin: 0.5rem 0;
+}
+
+input,
+select {
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+}
+
+.number-of-guests {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.number {
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  gap: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.number span {
+  cursor: pointer;
+}
+
+textarea {
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  padding: 1rem;
+  resize: none;
+}
+
+.submitbtn:disabled {
+  background-color: #979292;
+  color: #f0fff0;
+  cursor: not-allowed;
+  border: none;
+}
+
+.submitbtn {
+  align-self: center;
+  background-color: #f4ce14;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 4rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.submitbtn:hover {
+  background-color: rgb(36, 36, 36);
+  color: #f4ce14;
+  cursor: pointer;
+}
+
+.alert {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: larger;
+}

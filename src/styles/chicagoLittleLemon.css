@@ -1,0 +1,70 @@
+#little-lemon {
+  background-color: #495e57;
+  max-height: 400px;
+}
+
+#hero-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem;
+  position: relative;
+  top: 4rem;
+}
+
+#hero-detail {
+  color: white;
+}
+
+#food {
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+  width: 400px;
+}
+
+#hero-detail h1 {
+  color: #f4ce14;
+  font-family: Markazi Text, serif;
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+
+#hero-detail h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#hero-detail p {
+  font-size: 18px;
+  max-width: 280px;
+  padding: 1rem 0.5rem 1rem 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#button1:hover {
+  background-color: rgb(36, 36, 36);
+  color: #f4ce14;
+}
+
+#hero-image {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#button1 {
+  background-color: #f4ce14;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: 0.1s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
