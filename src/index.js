@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import NotFound from "./components/NotFound";
-import Reservation from "./components/Reservation";
+import NotFound from "./pages/NotFound";
+import Reservation from "./pages/Reservation";
 import About from "./components/AboutUs";
-import Menu from "./components/Menu";
-import Login from "./components/Login";
+import Menu from "./pages/Menu";
+import Login from "./pages/Login";
 
 const router = createBrowserRouter([
   {

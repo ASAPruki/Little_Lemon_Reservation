@@ -1,6 +1,6 @@
 import "../styles/reservation.css";
-import Nav from "./Nav";
-import Footer from "./Footer";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 import { useState } from "react";
 
 export default function Reservation() {
