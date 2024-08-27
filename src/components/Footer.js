@@ -12,7 +12,7 @@ export default function Footer() {
             <h4>About us</h4>
             <ul>
               <Link to="/">
-                <li>Out Company</li>
+                <li>Our Company</li>
               </Link>
               <Link to="/">
                 <li>Suppliers</li>
