@@ -1,1 +1,0 @@
-Note that after using the HashLink for the "about us" page in the nav bar page, it doesn't work when we are in the reservation page.

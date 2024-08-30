@@ -128,12 +128,6 @@ export default function Reservation() {
     <div>
       <Nav />
 
-      {shouldShowAlert && (
-        <div className="alert">
-          <h1>Form Submitted Successfully!</h1>
-        </div>
-      )}
-
       <div className="reservation-form">
         <form onSubmit={handleSubmit}>
           <h2>Reserve Table</h2>
@@ -239,6 +233,13 @@ export default function Reservation() {
           </button>
         </form>
       </div>
+
+      {shouldShowAlert && (
+        <div className="alert">
+          <h1>Form Submitted Successfully!</h1>
+        </div>
+      )}
+
       <Footer />
     </div>
   );

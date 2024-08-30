@@ -13,18 +13,18 @@ export default function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <HashLink to="#about-us" smooth>
+            <HashLink to="/#about-us" smooth>
               About Us
             </HashLink>
           </li>
           <li>
-            <Link to="./menu">Menu</Link>
+            <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <Link to="./reservation">Reservation</Link>
+            <Link to="/reservation">Reservation</Link>
           </li>
           <li>
-            <Link to="./login">Log in</Link>
+            <Link to="/login">Log in</Link>
           </li>
         </ul>
       </div>
