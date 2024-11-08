@@ -1,4 +1,4 @@
-//! Note that pages and css pages that are not used might be used if I want to modify this project later. So don't mind them.
+//! Note that pages and css pages that are not used might be used if I want to modify this project later. Therefore don't mind them.
 
 import app from "./styles/app.css";
 import Nav from "./components/Nav";
