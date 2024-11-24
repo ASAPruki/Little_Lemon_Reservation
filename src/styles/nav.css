@@ -24,3 +24,8 @@
   width: 200px;
   height: 55px;
 }
+
+li > a:hover {
+  transition: 0.35s;
+  color: #f4ce14;
+}
